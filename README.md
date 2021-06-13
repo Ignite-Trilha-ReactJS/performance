@@ -31,8 +31,8 @@ Formatação de dados / Cálculos
 Dynamic import (Code Spltting)
 Faz a importação somente no momento que precisamos.
 
-import dynamic from "next/dynamic";
-import lazy from "react";
+1. import dynamic from "next/dynamic";
+2. import lazy from "react";
 
 - Exemplo: ProductItem.tsx
 
