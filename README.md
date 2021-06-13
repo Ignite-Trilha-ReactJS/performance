@@ -26,3 +26,12 @@ useCallback
 
 Formatação de dados / Cálculos
 1. Na maioria das vezes fazer no momento em qu está trazendo os dados.
+- Exemplo: index.tsx
+
+Dynamic import (Code Spltting)
+Faz a importação somente no momento que precisamos.
+
+import dynamic from "next/dynamic";
+import lazy from "react";
+
+- Exemplo: ProductItem.tsx
