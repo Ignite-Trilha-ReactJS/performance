@@ -35,3 +35,7 @@ import dynamic from "next/dynamic";
 import lazy from "react";
 
 - Exemplo: ProductItem.tsx
+
+
+Virtualização
+- Exemplo : SearchResult.tsx
