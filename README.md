@@ -4,25 +4,25 @@ Ciclo de atualização de dados do component
 2. Comparar com a versão anterior
 3. Atualizar o que alterou
 
-- Memo
+Memo
 1. Pure Functional Components
 2. Components com muitas renderizações
 3. Muitas renderizações com o mesmo props
 4. Components muito grande.
 
-Exemplo: ProductItem.tsx
+- Exemplo: ProductItem.tsx
 
 
-- useMemo 
+useMemo 
 1. Cálculos pesados
 2. Igualdade referencial (quando a gente repassa a informação para outro components.)
 
-Exemplo: SearchResult.tsx
+- Exemplo: SearchResult.tsx
 
 
-- useCallback
+useCallback
 1. Igualdade referencial  (quando a gente repassa a informação para outro components.)
-Exemplo: index.tsx
+- Exemplo: index.tsx
 
-- Formatação de dados / Cálculos
-1 - Na maioria das vezes fazer no momento em qu está trazendo os dados.
+Formatação de dados / Cálculos
+1. Na maioria das vezes fazer no momento em qu está trazendo os dados.
