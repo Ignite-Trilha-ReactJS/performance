@@ -5,23 +5,23 @@ Ciclo de atualização de dados do component
 3. Atualizar o que alterou
 
 - Memo
-1 - Pure Functional Components
-2 - Components com muitas renderizações
-3 - Muitas renderizações com o mesmo props
-4 - Components muito grande.
+1. Pure Functional Components
+2. Components com muitas renderizações
+3. Muitas renderizações com o mesmo props
+4. Components muito grande.
 
 Exemplo: ProductItem.tsx
 
 
 - useMemo 
-1 - Cálculos pesados
-2 - Igualdade referencial (quando a gente repassa a informação para outro components.)
+1. Cálculos pesados
+2. Igualdade referencial (quando a gente repassa a informação para outro components.)
 
 Exemplo: SearchResult.tsx
 
 
 - useCallback
-1 - Igualdade referencial  (quando a gente repassa a informação para outro components.)
+1. Igualdade referencial  (quando a gente repassa a informação para outro components.)
 Exemplo: index.tsx
 
 - Formatação de dados / Cálculos
